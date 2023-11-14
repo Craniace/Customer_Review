@@ -1,9 +1,7 @@
-# Airline_Passenger_Satisfaction
-The dataset contains an airline passenger satisfaction survey. What factors are highly correlated to a satisfied (or dissatisfied) passenger
-Gender: Gender of the passengers (Female, Male)
-Customer Type: The customer type (Loyal customer, disloyal customer)
+# Passenger Satisfaction Survey 🛫😃😞
 
-
+## Overview
+This repository contains the analysis of an airline passenger satisfaction survey. The goal is to predict whether a passenger is satisfied or dissatisfied based on various features.
 
 These are the following features information about the passengers of an airline:
 
@@ -35,44 +33,44 @@ It is necessary to predict which of the two levels of satisfaction with the airl
     Satisfaction
     Neutral or dissatisfied
 
+## Exploratory Data Analysis (EDA) Insights
 
-Conclusions after EDA:
+### Gender Distribution 🚹🚺
+- The number of satisfied males and females is nearly equal.
+![Gender Distribution](plots/gender_satisfaction.png)
 
-<img src="plots/gender_satisfaction.png" alt="Target Distribution" width="300" height="230" align="middle">
+### Age and Satisfaction 🎂😊
+- Satisfaction tends to vary across age groups.
+![Age and Satisfaction](plots/age_satisfaction.png)
 
-No of males and females who are satisfied with the airline is about the same
+### Inflight Wifi Satisfaction 📶😄
+- Passengers rating Inflight wifi service above 3 are more likely to be satisfied.
+![Inflight Wifi Satisfaction](plots/wifi_satisfaction.png)
 
-<img src="plots/age_satisfaction.png" alt = "Age by Satisfaction">
+### Seat Comfort Matters! 💺😌
+- Passengers giving a seat comfort rating above 3 are generally satisfied.
+![Seat Comfort Satisfaction](plots/seat_comfort_satisfaction.png)
 
+### Business Class Satisfaction ✈️👔
+- Business class travelers tend to be more satisfied with their flights.
+![Business Class Satisfaction](plots/type_travel_satisfaction.png)
 
+### Cleanliness is Key! 🧹😊
+- Passengers rating cleanliness above 3 are more likely to be satisfied.
+![Cleanliness Satisfaction](plots/cleanliness_satisfaction.png)
 
-<img src = "plots/wifi_satisfaction.png">
+### Food and Drink Delight! 🍔🥤😋
+- Passengers rating food and drink service above 3 are satisfied.
+![Food and Drink Satisfaction](plots/food_drink_satisfaction.png)
 
+## Model Results 📊🤖
 
-People who rated the
-Inflight wifi service rated more than 3 were satisfied with airlines service
+| Model                   | Accuracy    | F1 Score      |
+| :---------------------- | :----:      | ---:          |
+| DecisionTreeClassifier  | 78%         | 0.81          |
+| **RandomForestClassifier** | **79%**| **0.81**    |
+| LogisticRegression      | 78%         | 0.83          |
+| KNeighborsClassifier    | 78%         | 0.84          |
+| **XGB**                 | **78%**     | **0.80**      |
 
-<img src = "plots/seat_comfort_satisfaction.png">
-People who rated the seat comfort more than 3 are satisfied with the airlines service.
-
-
-<img src = "plots/type_travel_satisfaction.png">
-People who generally travelled business class were satisfies with the flight
-
-<img src = "plots/cleanliness_satisfaction.png">
-
-People who rated the cleanliness more than 3 are satisfied with the airlines service.
-<img src = "plots/food_drink_satisfaction.png">
-
-People who rated the food and drink service more than 3 are satisfied with the airlines service.
-
-
-<b>Results:</b>
-| Model       | Accuracy    | F1 Score      |
-| :---        |    :----:   |          ---: |
-| DecisonTreeClassifier      | 78%        | 0.81  |
-| **RandomForestClassifier** | **79%**| **0.81**  |
-|LogisticRegression | 78% |0.83|  
-|KNeighborsClassifier| 78% |0.84|  
-|**XGB**| **78%** |**0.80** |
  
