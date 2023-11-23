@@ -37,31 +37,32 @@ It is necessary to predict which of the two levels of satisfaction with the airl
 
 ### Gender Distribution 🚹🚺
 - The number of satisfied males and females is nearly equal.
-![Gender Distribution](plots/gender_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/60ebcc9c-5df3-4cbb-859f-c81074c5f456)
 
 ### Age and Satisfaction 🎂😊
 - Satisfaction tends to vary across age groups.
-![Age and Satisfaction](plots/age_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/98851ba7-d475-4f7e-a367-6d90a94adbf8)
 
 ### Inflight Wifi Satisfaction 📶😄
 - Passengers rating Inflight wifi service above 3 are more likely to be satisfied.
-![Inflight Wifi Satisfaction](plots/wifi_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/865bd0a9-1d69-47af-b92b-d7fc0d7df6c6)
 
 ### Seat Comfort Matters! 💺😌
 - Passengers giving a seat comfort rating above 3 are generally satisfied.
-![Seat Comfort Satisfaction](plots/seat_comfort_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/8e683f97-699f-4aa4-9012-8152f0ec6e1e)
 
 ### Business Class Satisfaction ✈️👔
 - Business class travelers tend to be more satisfied with their flights.
-![Business Class Satisfaction](plots/type_travel_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/745d24f0-d2b3-419d-a33d-d2a08606fd6c)
 
 ### Cleanliness is Key! 🧹😊
 - Passengers rating cleanliness above 3 are more likely to be satisfied.
-![Cleanliness Satisfaction](plots/cleanliness_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/0eef8c52-2808-441c-80ef-cd87a2e94ce2)
 
 ### Food and Drink Delight! 🍔🥤😋
 - Passengers rating food and drink service above 3 are satisfied.
-![Food and Drink Satisfaction](plots/food_drink_satisfaction.png)
+![image](https://github.com/Craniace/Customer_Review/assets/100042684/e79beafb-4ebb-410f-aacd-207bbfec9cbc)
+
 
 ## Model Results 📊🤖
 
